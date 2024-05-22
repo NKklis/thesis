@@ -57,7 +57,7 @@ function App() {
 	return ( 
 		<div className="App"> 
     <Header />
-			<p>Let's Creat A New Understandable Pictogram.</p> 
+			<p>Let's creat a New understandable pictogram.</p> 
 			<div className="draw-area"> 
 				<Menu 
 					setLineColor={setLineColor} 
