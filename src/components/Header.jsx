@@ -2,13 +2,13 @@
 
 import React from 'react';
 import '../Header.css'; 
-import logoR from '/logoR.png';
+import logoR from './logoR.png';
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-      <img src="/logoR.png" alt="PICTOR" className="header-logo" />
+      <img src={logoR} alt="PICTOR" className="header-logo" />
         <nav className="header-nav">
           <ul className="nav-list">
             <li className="nav-item"><a href="#about">About</a></li>
