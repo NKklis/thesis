@@ -2,6 +2,7 @@
 
 import React from 'react';
 import '../Header.css'; 
+import logoR from '/logoR.png';
 
 const Header = () => {
   return (
